@@ -1,14 +1,14 @@
 // Funktion som kontrollerar om ett lösenord är giltigt
 function isValidPassword(password, username) {
-  if (
-    password.length >= 8 &&
-    !password.includes(" ") &&
-    !password.includes(username)
-  ) {
-    return true;
-  } else {
-    return false;
-  }
+    if (
+        password.length >= 8 &&
+        !password.includes(" ") &&
+        !password.includes(username)
+    ) {
+        return true;
+    } else {
+        return false;
+    }
 }
 
 // Tester för att visa att funktionen fungerar
